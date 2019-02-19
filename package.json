@@ -5,5 +5,13 @@
   "repository": "git@github.com:alexcpendleton/freshbooks-time-mailer.git",
   "author": "Alex Pendleton <alexcpendleton@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "test": "npx mocha --watch --recursive ./test/*.js "
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.14.1",
+    "mocha": "^6.0.0"
+  }
 }
